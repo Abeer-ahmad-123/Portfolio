@@ -30,6 +30,11 @@ const Skills = () => {
               <div className="skills nintyTwo">92%</div>
             </div>
 
+            <p>GraphQL</p>
+            <div className="skillsContainer">
+              <div className="skills ninty">90%</div>
+            </div>
+
             <p>Node ( Expressjs )</p>
             <div className="skillsContainer">
               <div className="skills ninty">90%</div>
@@ -39,14 +44,13 @@ const Skills = () => {
             <div className="skillsContainer">
               <div className="skills ninty">90%</div>
             </div>
+          </div>
 
+          <div className="col-sm-12 col-lg-6 gap">
             <p>Django</p>
             <div className="skillsContainer">
               <div className="skills seventy">70%</div>
             </div>
-          </div>
-
-          <div className="col-sm-12 col-lg-6 gap">
             <p>MongoDB</p>
             <div className="skillsContainer">
               <div className="skills eight">80%</div>
