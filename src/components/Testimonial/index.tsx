@@ -1,5 +1,3 @@
-import React from "react";
-
 const Testmonial = () => {
   return (
     <section className="section" id="testmonial">
