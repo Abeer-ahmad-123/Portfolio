@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Services from "@/components/Services";
 import WorkWithMe from "@/components/WorkWithMe";
 import Head from "next/head";
+import Skills from "../Skills";
 const Hero = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Hero = () => {
       <Layout>
         <Header />
         <About />
+        <Skills />
         <WorkWithMe />
         <Services />
         <Contact />

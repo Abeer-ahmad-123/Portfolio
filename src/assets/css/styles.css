@@ -497,6 +497,12 @@ mark,
   font-size: 1.25rem;
 }
 
+.text-center{
+  
+text-align: center;
+
+}
+
 .blockquote-footer {
   display: block;
   font-size: 80%;
@@ -582,6 +588,51 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.skillsContainer {
+  width: 100%;
+  background-color: #ddd;
+  height: 25px;
+}
+
+.skills {
+  text-align: right;
+  height: 100%;
+  color: white;
+  background-color: #695aa6;
+}
+
+.hundred {
+  width: 100%;
+}
+
+.ninty {
+  width: 90%;
+}
+
+.nintyTwo {
+  width: 92%;
+}
+
+.seventy {
+  width: 70%;
+}
+
+.eight {
+  width: 80%;
+}
+
+.fifty {
+  width: 50%;
+}
+
+.row p {
+  margin-bottom: 0.2rem;
+}
+
+.gap {
+  display: grid;
+  gap: 5px;
 }
 
 @media (min-width: 576px) {

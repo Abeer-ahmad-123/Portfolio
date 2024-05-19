@@ -3,7 +3,7 @@ const Services = () => {
     <section className="section" id="service">
       <div className="container text-center">
         <p className="section-subtitle">What I Do ?</p>
-        <h6 className="section-title mb-6">Service</h6>
+        <h6 className="section-title mb-6">Services</h6>
         <div className="row">
           <div className="col-md-6 col-lg-4">
             <div className="service-card">
