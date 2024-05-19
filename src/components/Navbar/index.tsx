@@ -1,12 +1,26 @@
-import { useState } from "react";
+import { use, useEffect, useState } from "react";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
+  const [top, setTop] = useState(true);
   const handleClick = () => {
     setClicked(!clicked);
   };
+
+  useEffect(() => {
+    window.onscroll = function () {
+      if (
+        document.documentElement.scrollTop > 50 ||
+        document.body.scrollTop > 50
+      ) {
+        setTop(false);
+      } else {
+        setTop(true);
+      }
+    };
+  }, []);
   return (
-    <nav className="custom-navbar" data-spy="affix" data-offset-top="20">
+    <nav className={`custom-navbar ${!top && "whiteNavbar"}`}>
       <div className="container">
         <ul className={`nav ${clicked && "show"}`}>
           <li className="item">

@@ -73,17 +73,17 @@ const Skills = () => {
 
             <p>Vercel</p>
             <div className="skillsContainer">
-              <div className="skills hundred">100%</div>
+              <div className="skills nintyFive">95%</div>
             </div>
 
             <p>Git, Github</p>
             <div className="skillsContainer">
-              <div className="skills hundred">100%</div>
+              <div className="skills nintyFive">95%</div>
             </div>
 
             <p>Jira</p>
             <div className="skillsContainer">
-              <div className="skills hundred">100%</div>
+              <div className="skills nintyFive">95%</div>
             </div>
           </div>
         </div>

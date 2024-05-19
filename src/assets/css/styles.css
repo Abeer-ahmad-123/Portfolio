@@ -497,10 +497,8 @@ mark,
   font-size: 1.25rem;
 }
 
-.text-center{
-  
-text-align: center;
-
+.text-center {
+  text-align: center;
 }
 
 .blockquote-footer {
@@ -601,6 +599,17 @@ pre code {
   color: white;
   background-color: #695aa6;
 }
+.whiteNavbar {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.whiteNavbar ul li a {
+  color: gray !important;
+}
+.whiteNavbar ul li a:hover {
+  color: #695aa6 !important;
+}
 
 .hundred {
   width: 100%;
@@ -612,6 +621,10 @@ pre code {
 
 .nintyTwo {
   width: 92%;
+}
+
+.nintyFive {
+  width: 95%;
 }
 
 .seventy {
@@ -12042,8 +12055,8 @@ pre .code {
 }
 
 .custom-navbar {
-  position: absolute;
-  top: 25px;
+  position: fixed;
+  height: 50px;
   left: 0;
   width: 100%;
   z-index: 1000;
@@ -12139,36 +12152,7 @@ pre .code {
   color: #695aa6;
 }
 
-.custom-navbar.affix {
-  background: #fff;
-  border-bottom: 1px solid rgba(222, 226, 230, 0.34);
-}
-
-.custom-navbar.affix .logo {
-  color: #695aa6;
-}
-
-.custom-navbar.affix .container {
-  min-height: 65px;
-}
-
-.custom-navbar.affix .nav .item .link {
-  color: #6c757d;
-}
-
-.custom-navbar.affix .hamburger-inner,
-.custom-navbar.affix .hamburger-inner::before,
-.custom-navbar.affix .hamburger-inner::after {
-  background: #6c757d;
-}
-
 @media (min-width: 768px) {
-  .custom-navbar .nav .item {
-    -webkit-transform: translateY(-50px);
-    -ms-transform: translateY(-50px);
-    transform: translateY(-50px);
-    transform: translateY(-50px);
-  }
   .custom-navbar .nav .item:nth-child(9) {
     -webkit-transition: all, 0.1s;
     transition: all, 0.1s;
