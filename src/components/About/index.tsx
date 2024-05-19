@@ -24,11 +24,6 @@ const About = () => {
               key role in onboarding and mentoring new team members,
               facilitating their smooth integration into project workflows.
             </p>
-            <a href="/cv.pdf" download="Abeer Ahmed CV.pdf">
-              <button className="btn-rounded btn btn-outline-primary mt-4">
-                Download CV
-              </button>
-            </a>
           </div>
         </div>
       </div>

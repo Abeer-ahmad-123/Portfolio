@@ -11,7 +11,12 @@ const Header = () => {
         </h1>
         <p className="header-subtitle">Full Stack Developer</p>
 
-        <button className="btn btn-primary">Visit My Works</button>
+        {/* <button className="btn btn-primary">Visit My Works</button> */}
+        <a href="/cv.pdf" download="Abeer Ahmed CV.pdf">
+          <button className="btn-rounded btn btn-outline-primary mt-4">
+            Download CV
+          </button>
+        </a>
       </div>
     </header>
   );
