@@ -14,10 +14,11 @@ const About = () => {
             <p className="section-subtitle">Who Am I ?</p>
             <h2 className="section-title mb-3">About Me</h2>
             <p>
-              Software engineer with five years of comprehensive experience in
-              both backend and frontend development. Committed to continuous
-              learning and professional growth, I proactively seek opportunities
-              to enhance my skills and stay current with emerging technologies.
+              Software engineer with three years plus of comprehensive
+              experience in both backend and frontend development. Committed to
+              continuous learning and professional growth, I proactively seek
+              opportunities to enhance my skills and stay current with emerging
+              technologies.
               <br />I have consistently excelled in collaborative team settings,
               contributing to the successful delivery of numerous projects. In
               addition to developing robust software solutions, I have played a
