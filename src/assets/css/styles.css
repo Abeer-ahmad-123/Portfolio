@@ -11518,12 +11518,12 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  font-family: "Baloo Paaji", cursive;
+  font-family: "Open Sans", sans-serif;
   color: #695aa6;
 }
 
 .my-font {
-  font-family: "Baloo Paaji", cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
@@ -12070,7 +12070,7 @@ pre .code {
   align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: "Baloo Paaji", cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media (prefers-reduced-motion: reduce) {
