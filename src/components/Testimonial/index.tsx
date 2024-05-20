@@ -12,7 +12,7 @@ const Testmonial = () => {
                 <img
                   src="assets/imgs/avatar2.jpg"
                   className="testimonial-card-img"
-                  alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                  alt=""
                 />
               </div>
               <div className="testimonial-card-body">
@@ -31,7 +31,7 @@ const Testmonial = () => {
                 <img
                   src="assets/imgs/avatar3.jpg"
                   className="testimonial-card-img"
-                  alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                  alt=" "
                 />
               </div>
               <div className="testimonial-card-body">

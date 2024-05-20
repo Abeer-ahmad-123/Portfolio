@@ -10,7 +10,7 @@ const Pricing = () => {
               <img
                 className="pricing-card-icon"
                 src="assets/imgs/scooter.svg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt=" "
               />
             </div>
             <div className="pricing-card-body">
@@ -41,7 +41,7 @@ const Pricing = () => {
               <img
                 className="pricing-card-icon"
                 src="assets/imgs/shipped.svg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt=" "
               />
             </div>
             <div className="pricing-card-body">
@@ -70,7 +70,7 @@ const Pricing = () => {
               <img
                 className="pricing-card-icon"
                 src="assets/imgs/startup.svg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt=" "
               />
             </div>
             <div className="pricing-card-body">

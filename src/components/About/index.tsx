@@ -4,11 +4,7 @@ const About = () => {
       <div className="container text-center">
         <div className="about">
           <div className="about-img-holder">
-            <img
-              src="assets/imgs/me.jpg"
-              className="about-img"
-              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-            />
+            <img src="assets/imgs/me.jpg" className="about-img" alt=" " />
           </div>
           <div className="about-caption">
             <p className="section-subtitle">Who Am I ?</p>

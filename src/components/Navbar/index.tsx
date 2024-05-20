@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -19,6 +19,7 @@ const Navbar = () => {
       }
     };
   }, []);
+
   return (
     <nav className={`custom-navbar ${!top && "whiteNavbar"}`}>
       <div className="container">

@@ -10,7 +10,7 @@ const Portfolio = () => {
               <img
                 src="assets/imgs/folio-1.jpg"
                 className="portfolio-card-img"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt=" "
               />
               <span className="portfolio-card-overlay">
                 <span className="portfolio-card-caption">
@@ -25,7 +25,7 @@ const Portfolio = () => {
               <img
                 className="portfolio-card-img img-responsive rounded"
                 src="assets/imgs/folio-2.jpg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt=" "
               />
               <span className="portfolio-card-overlay">
                 <span className="portfolio-card-caption">
@@ -40,7 +40,7 @@ const Portfolio = () => {
               <img
                 className="portfolio-card-img img-responsive rounded"
                 src="assets/imgs/folio-3.jpg"
-                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                alt=" "
               />
               <span className="portfolio-card-overlay">
                 <span className="portfolio-card-caption">
