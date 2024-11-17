@@ -30,6 +30,7 @@ const Contact = () => {
 
       if (res.status === 200) {
         enqueueSnackbar("Message Sent Successfully", { variant: "success" });
+        setEmailData({ to: "", subject: "Equiry", name: "", text: "" });
       } else {
         enqueueSnackbar("Something went wrong!", { variant: "error" });
       }
