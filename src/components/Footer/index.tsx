@@ -2,30 +2,21 @@ const Footer = () => {
   return (
     <section className="container">
       <footer className="footer">
-        {/* <p className="mb-0"> */}
-        {/* Copyright */}
-        {/* <script>document.write(new Date().getFullYear())</script> &copy; <a
-                href="http://www.devcrud.com">DevCRUD</a> Distribution <a
-                href="https://themewagon.com">ThemeWagon</a> */}
-        {/* </p> */}
+        <a href="mailto:abeerahmad389@gmail.com">
+          <img className="wi-25" src="assets/svgs/email.svg" />
+        </a>
         <div className="social-links text-right m-auto ml-sm-auto">
-          <a href="javascript:void(0)" className="link">
-            <i className="ti-facebook"></i>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="assets/svgs/twitter.svg" />
           </a>
-          <a href="javascript:void(0)" className="link">
-            <i className="ti-twitter-alt"></i>
+          <a
+            href="https://www.linkedin.com/in/abeer-ahmad-5623181b7/"
+            target="_blank"
+          >
+            <img src="assets/svgs/linkedin.svg" />
           </a>
-          <a href="javascript:void(0)" className="link">
-            <i className="ti-google"></i>
-          </a>
-          <a href="javascript:void(0)" className="link">
-            <i className="ti-pinterest-alt"></i>
-          </a>
-          <a href="javascript:void(0)" className="link">
-            <i className="ti-instagram"></i>
-          </a>
-          <a href="javascript:void(0)" className="link">
-            <i className="ti-rss"></i>
+          <a href="https://www.github.com/abeer-ahmad-123" target="_blank">
+            <img src="assets/svgs/github.svg" />
           </a>
         </div>
       </footer>

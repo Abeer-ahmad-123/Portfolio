@@ -17,7 +17,7 @@ const Skills = () => {
 
             <p>Python</p>
             <div className="skillsContainer">
-              <div className="skills ninty">90%</div>
+              <div className="skills ninty">50%</div>
             </div>
 
             <p>Reactjs</p>
@@ -49,7 +49,7 @@ const Skills = () => {
           <div className="col-sm-12 col-lg-6 gap">
             <p>Django</p>
             <div className="skillsContainer">
-              <div className="skills seventy">70%</div>
+              <div className="skills seventy">50%</div>
             </div>
             <p>MongoDB</p>
             <div className="skillsContainer">

@@ -8,7 +8,7 @@ const Services = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card">
               <div className="body">
-                <img src="assets/imgs/frontend.svg" alt=" " className="icon" />
+                <img src="assets/svgs/frontend.svg" alt=" " className="icon" />
                 <h6 className="title">Frontend Development</h6>
                 <p className="subtitle">
                   Creating Seamless and Interactive User Experiences on the Web
@@ -19,7 +19,7 @@ const Services = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card">
               <div className="body">
-                <img src="assets/imgs/backend.svg" alt=" " className="icon" />
+                <img src="assets/svgs/backend.svg" alt=" " className="icon" />
                 <h6 className="title">Backend Development</h6>
                 <p className="subtitle">
                   Building Robust and Scalable Server-Side Solutions
@@ -31,7 +31,7 @@ const Services = () => {
             <div className="service-card">
               <div className="body">
                 <img
-                  src="assets/imgs/deployment.svg"
+                  src="assets/svgs/deployment.svg"
                   alt=" "
                   className="icon"
                 />
@@ -47,7 +47,7 @@ const Services = () => {
           <div className="service-card">
             <div className="body">
               <img
-                src="assets/imgs/analytics.svg"
+                src="assets/svgs/analytics.svg"
                 alt=" "
                 className="icon"
               />

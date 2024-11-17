@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 const WorkWithMe = () => {
+  const handleScrollToContact = () => {
+    const contactElement = document.getElementById("contact");
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="section-sm bg-primary">
       <div className="container text-center text-sm-left">
@@ -10,8 +18,11 @@ const WorkWithMe = () => {
             </p>
           </div>
           <div className="col-sm offset-sm-2 offset-md-3">
-            <button className="btn btn-lg my-font btn-light rounded">
-              <a href="#contact"> Hire Me</a>
+            <button
+              className="btn btn-lg my-font btn-light rounded"
+              onClick={handleScrollToContact}
+            >
+              Hire Me
             </button>
           </div>
         </div>

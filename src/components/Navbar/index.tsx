@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
-  const [top, setTop] = useState(true);
+  const [hamburgerTop, setHamburgerTop] = useState(true);
+  const [navbarTop, setNavbarTop] = useState(true);
   const handleClick = () => {
     setClicked(!clicked);
   };
@@ -13,17 +14,25 @@ const Navbar = () => {
         document.documentElement.scrollTop > 50 ||
         document.body.scrollTop > 50
       ) {
-        setTop(false);
+        if (window.innerWidth > 991) {
+          setNavbarTop(false);
+        }
+        setHamburgerTop(false);
       } else {
-        setTop(true);
+        setNavbarTop(true);
+        setHamburgerTop(true);
       }
     };
   }, []);
 
   return (
-    <nav className={`custom-navbar ${!top && "whiteNavbar"}`}>
+    <nav
+      className={`custom-navbar ${navbarTop ? "whiteLinks" : "whiteNavbar"} ${
+        clicked ? "bgWhite" : ""
+      }`}
+    >
       <div className="container">
-        <ul className={`nav ${clicked && "show"}`}>
+        <ul className={`nav ${clicked ? "show" : ""}`}>
           <li className="item">
             <a className="link" href="#home">
               Home
@@ -63,7 +72,9 @@ const Navbar = () => {
         </ul>
         <a
           id="nav-toggle"
-          className={`hamburger hamburger--elastic ${clicked && "is-active"}`}
+          className={`hamburger hamburger--elastic ${
+            clicked ? "is-active" : hamburgerTop ? "" : "non-active"
+          }`}
           onClick={handleClick}
         >
           <div className="hamburger-box">

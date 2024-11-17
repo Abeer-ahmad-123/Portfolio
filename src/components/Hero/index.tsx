@@ -6,6 +6,7 @@ import Services from "@/components/Services";
 import WorkWithMe from "@/components/WorkWithMe";
 import Head from "next/head";
 import Skills from "../Skills";
+import Portfolio from "../Portfolio";
 const Hero = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Hero = () => {
         <Skills />
         <WorkWithMe />
         <Services />
+        <Portfolio />
         <Contact />
       </Layout>
     </>

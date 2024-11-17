@@ -9,7 +9,7 @@ const Pricing = () => {
             <div className="pricing-card-header">
               <img
                 className="pricing-card-icon"
-                src="assets/imgs/scooter.svg"
+                src="assets/svgs/scooter.svg"
                 alt=" "
               />
             </div>
@@ -40,7 +40,7 @@ const Pricing = () => {
             <div className="pricing-card-header">
               <img
                 className="pricing-card-icon"
-                src="assets/imgs/shipped.svg"
+                src="assets/svgs/shipped.svg"
                 alt=" "
               />
             </div>
@@ -69,7 +69,7 @@ const Pricing = () => {
             <div className="pricing-card-header">
               <img
                 className="pricing-card-icon"
-                src="assets/imgs/startup.svg"
+                src="assets/svgs/startup.svg"
                 alt=" "
               />
             </div>
